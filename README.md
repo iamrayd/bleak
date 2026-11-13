@@ -31,7 +31,10 @@ This repository currently holds **the plan only**. No game code exists yet.
 
 ## Things only a human can do
 
-These are listed in full in the master plan, section "Human gates". In short:
+**Do [docs/SETUP.md](docs/SETUP.md) before starting any agent.** It is the
+ordered checklist of installs, accounts, keys and environment variables.
+
+The gates are listed in the master plan, section "Human gates". In short:
 create the Roblox experience, create an Open Cloud API key, enable the Studio
 MCP server, set two lighting properties that scripts cannot set, publish from
 Studio, and fill in the content maturity questionnaire.

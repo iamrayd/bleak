@@ -52,6 +52,11 @@ workstream reads this file, the spec, and its own workstream plan.
 ## 2. Human gates
 
 An agent stops at a human gate, tells the user exactly what to do, and waits.
+The step-by-step instructions for every gate, with a check for each step, are
+in `docs/SETUP.md`. Before task F1 the Orchestrator asks the user to confirm
+that parts A to C of that file are done, and runs the checks it can run
+itself (`git --version`, `python --version`, `rokit --version`, and that the
+three environment variables are set).
 
 | Id | When | The user does |
 |----|------|---------------|
